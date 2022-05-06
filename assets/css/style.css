@@ -14,7 +14,7 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #0c0c0c;
 }
 
 a {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: var(--color-primario);
 }
 #header .logo {
   font-size: 30px;
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: var(--color-primario);
+  color:rgb(14, 14, 14);
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 8px 20px;
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
-  color: #530c0c;
+  color: #000000;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: var(--color-primario));
   transition: 0.3s;
   z-index: 999;
 }
@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: var(--color-primario);
+  color: rgb(0, 0, 0);
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: var(--color-primario);
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: var(--color-primario);
+  color: #fff;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -369,28 +369,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: var(--color-primario);
 }
-#hero .btn-get-started:hover {
-  background: var(--color-primario);
-}
-#hero .btn-watch-video {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  transition: 0.5s;
-  margin: 10px 0 0 25px;
-  color: #fff;
-  line-height: 1;
-}
-#hero .btn-watch-video i {
-  line-height: 0;
-  color: #fff;
-  font-size: 32px;
-  transition: 0.3s;
-  margin-right: 8px;
-}
-#hero .btn-watch-video:hover i {
-  color: var(--color-primario);
-}
+
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -599,6 +578,7 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+   ;
 }
 .why-us .accordion-list {
   padding: 0 100px 60px 100px;
@@ -1243,7 +1223,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #6182ba;
+  color: #000000;
 }
 .contact .info .email p {
   padding-top: 5px;
@@ -1254,7 +1234,7 @@ section {
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
+  background: rgb(0, 0, 0);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1266,11 +1246,11 @@ section {
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: var(--color-primario);
+  background: rgb(0, 0, 0);
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: var(--color-primario);
+  background: rgb(0, 0, 0);
   color: #fff;
 }
 .contact .php-email-form {
@@ -1279,7 +1259,7 @@ section {
   border-bottom: 3px solid var(--color-primario);
   padding: 30px;
   background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.637);
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
@@ -1305,7 +1285,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #ed3c0d;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1323,7 +1303,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #ed3c0d;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1426,7 +1406,7 @@ section {
   background: #f3f5fa;
   text-align: center;
   font-size: 15px;
-  color: #444444;
+  color: #000000;
 }
 #footer .footer-newsletter h4 {
   font-size: 24px;
