@@ -656,7 +656,7 @@ section {
 }
 @media (max-width: 575px) {
   .why-us .img {
-    min-height: 200px;
+    min-height: 400px;
   }
 }
 
